@@ -1,3 +1,1 @@
-import restClient from './src/rest-client';
-
-export const restClient;
+export { default as initRestClient } from './src/rest-client';

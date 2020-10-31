@@ -1,4 +1,4 @@
-export default initRestClient = (protocol = 'http', host = 'localhost', port = 4040) => {
+export default (protocol = 'http', host = 'localhost', port = 4040) => {
   async function restClient ({requestUrl, method = 'GET', body, unsetContentType = false}) {
     console.log('body', body);
     let completeUrl = buildCompleteUrl(requestUrl);
