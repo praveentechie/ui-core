@@ -1,5 +1,5 @@
 {
-  "name": "ui-core",
+  "name": "@ap-tech/ui-core",
   "version": "1.0.0",
   "description": "core modules for all UI repos",
   "main": "index.js",
@@ -7,5 +7,21 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "AP",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://praveentechie@github.com/praveentechie/ui-core.git"
+  },
+  "keywords": [
+    "core",
+    "modules",
+    "for",
+    "all",
+    "UI",
+    "repo"
+  ],
+  "bugs": {
+    "url": "https://github.com/praveentechie/ui-core/issues"
+  },
+  "homepage": "https://github.com/praveentechie/ui-core#readme"
 }
